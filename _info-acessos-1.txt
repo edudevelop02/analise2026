@@ -20,20 +20,31 @@ github
 
 https://github.com/edudevelop02/analise2026.git
 
-…or create a new repository on the command line
-echo "# analise2026" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
+instalar o git
+
+
+git init  -> inicializa a pasta do git
+git add . (git add nome.py)  -> adiciona os arquivos para o git
+git commit -m "primeiro commit"  - prepara os arq. para o git
+git status -> verifica o status do commit
+git log (histórico dos commits) - histórico do commit
+
+
+
+criar uma conta no git hub
+criar um repositório no git hub
+git config --global user.name "provasetrr-gif"
+git config --global user.email "seu.email@exemplo.com"
 git branch -M main
-git remote add origin https://github.com/edudevelop02/analise2026.git
-git push -u origin main
-…or push an existing repository from the command line
-git remote add origin https://github.com/edudevelop02/analise2026.git
-git branch -M main
+git remote add origin "endereço do git"
 git push -u origin main
 
-…or push an existing repository from the command line
-git remote add origin https://github.com/edudevelop02/analise2026.git
-git branch -M main
-git push -u origin main
+branch principal
+git remote add origin  (endereço do repositório)
+git push origin nome_branch
+
+upload de arquivos
+git checkout nome_branh
+git pull origin nom_branch
+
+git fetch (atualiza as branch - sincronização do local com o remoto)

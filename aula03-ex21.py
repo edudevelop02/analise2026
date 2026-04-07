@@ -17,4 +17,5 @@ else:
 salario_fim = salario - irrf
 print(f"=> Salario Bruto: {salario:.2f} , Imposto IRRF: {irrf:.2f} , Salario Final: {salario_fim:.2f}  ")
 
-print(f"\nFim programa")
+print(f"\nFinal do programa")
+print(f"\nFinal do programa 2 ")
