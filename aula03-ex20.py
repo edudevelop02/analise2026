@@ -2,7 +2,7 @@
  
 
 '''
-print(f"\nteste : \n")
+print(f"\nteste 20: \n")
 mes =  input("Digite o nome do mes =>").lower()   
 if  mes in ["dezenbro", "janeiro", "fevereiro"] :
     print("Verao")
