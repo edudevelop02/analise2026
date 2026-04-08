@@ -2,7 +2,7 @@
  
 
 '''
-
+print(f"\nVersao prog.: 1.3")
 salario =  float(input("\nSalario do funcionario => ")) 
 
 if  salario <= 5000 :
