@@ -1,24 +1,10 @@
-prof.: Leandro Pisco
+Assista ao video abaixo
 
-https://dontpad.com/analise2026.1     # anotacoes das aulas
-
-https://dontpad.com/analise2026.1/github
 https://www.youtube.com/watch?v=pyM5QLS2h6M
 
+site do git
+https://git-scm.com/
 
-https://primeiroacesso.rj.senac.br/
-
-https://senacrjacad.sharepoint.com/sites/CampusDigital
-
-login: luis.accampora@aluno.senac.rio
-
-pw:    Luis@76040
-
-
-====================================
-github
-
-https://github.com/edudevelop02/analise2026.git
 
 instalar o git
 
@@ -48,3 +34,8 @@ git checkout nome_branh
 git pull origin nom_branch
 
 git fetch (atualiza as branch - sincronização do local com o remoto)
+
+dia seguinte ao trabalho novo commit e push
+git add . ou git add nome.py
+git commit -m "nome da commit"
+git push

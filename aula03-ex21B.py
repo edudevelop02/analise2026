@@ -13,6 +13,8 @@ print(f"\nVersao prog.: 1.1")
 
 '''
 print("="*80)
+print("="*80)
+
 salario =  input("\nSalario do funcionario ==> ")
 if  salario == "" :
     print("\n ERRO: Valor do salario vazio  ")
