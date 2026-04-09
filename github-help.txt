@@ -1,0 +1,91 @@
+prof.: Leandro Pisco
+
+https://dontpad.com/analise2026.1     # anotacoes das aulas
+
+https://dontpad.com/analise2026.1/github
+https://www.youtube.com/watch?v=pyM5QLS2h6M
+
+
+https://primeiroacesso.rj.senac.br/
+
+https://senacrjacad.sharepoint.com/sites/CampusDigital
+
+login: luis.accampora@aluno.senac.rio
+
+pw:    Luis@76040
+
+
+====================================
+github
+
+https://github.com/edudevelop02/analise2026.git
+
+Assista ao video abaixo
+
+https://www.youtube.com/watch?v=pyM5QLS2h6M
+
+site do git
+https://git-scm.com/
+
+
+instalar o git
+
+
+git init  -> inicializa a pasta do git
+git add . (git add nome.py)  -> adiciona os arquivos para o git
+git commit -m "primeiro commit"  - prepara os arq. para o git
+git status -> verifica o status do commit
+git log (histórico dos commits) - histórico do commit
+
+
+
+criar uma conta no git hub
+criar um repositório no git hub
+git config --global user.name "provasetrr-gif"
+git config --global user.email "seu.email@exemplo.com"
+git branch -M main
+git remote add origin "endereço do git"
+git push -u origin main
+
+branch principal
+git remote add origin  (endereço do repositório)
+git push origin nome_branch
+
+upload de arquivos
+git checkout nome_branh
+git pull origin nom_branch
+
+git fetch (atualiza as branch - sincronização do local com o remoto)
+
+dia seguinte ao trabalho novo commit e push
+git add . ou git add nome.py
+git commit -m "nome da commit"
+git push
+
+RESUMÃO
+
+Principais Comandos Git
+Configuração Inicial:
+git config --global user.name "Seu Nome": Define nome.
+git config --global user.email "email@exemplo.com": Define e-mail.
+
+Iniciar
+git init: Inicializa um repositório local na pasta atual.
+
+Fluxo de Trabalho (Staging/Commit):
+git status: Mostra arquivos modificados e staged.
+git add <arquivo> ou git add .: Adiciona arquivos à área de stage.
+git commit -m "mensagem": Grava o snapshot do stage no histórico.
+
+Branches (Ramificações):
+git branch: Lista branches.
+git checkout -b <nome>: Cria e muda para um novo branch.
+git checkout <nome>: Alterna para um branch existente.
+
+Repositório Remoto (GitHub):
+git remote add origin <url>: Conecta o local ao GitHub.
+git push -u origin <branch>: Envia commits para o GitHub.
+git pull origin <branch>: Recebe e mescla alterações do GitHub.
+
+DICA / DOCUMENTAÇÃO
+https://comandosgit.github.io/
