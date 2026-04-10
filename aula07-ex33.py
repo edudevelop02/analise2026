@@ -4,7 +4,7 @@ desenvolva um codigo que leia 10 medias de aluno e no momento
 que esta lendo mostre se o aluno esta aprovado se for maior que 5 
 ou em recuperacao no caso contrario;
 '''
-print(f"\nCalcula se aprovado ou nao  -Versao prog.: 1.1")
+print(f"\nCalcula se aprovado ou nao  -Versao prog.: 1.2")
 print("="*80)
 media = 0
 #---------------------------------------------
