@@ -66,6 +66,8 @@ git remote add origin <url>: Conecta o local ao GitHub.
 Mudando o repositorio:
 exemplo 1: associando pasta a outro repositorio github 
 git remote set-url origin https://github.com/edudevelop02/analise2026.git 
+git remote -v       # Verifique o repositório atual
+
 
 git push -u origin <branch>: Envia commits para o GitHub.
 git pull origin <branch>: Recebe e mescla alterações do GitHub.
