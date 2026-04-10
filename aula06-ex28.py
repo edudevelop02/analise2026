@@ -13,7 +13,7 @@ for i in range(1,6):
     soma = soma + num
 
 print(f"=> Somatorio = {soma}  ")
-print("="*80)
+print("="*80) 
 
 x = (input("\n Tecle Enter para finalizar ==> ")) 
 print(f"\nFinal do programa ")
