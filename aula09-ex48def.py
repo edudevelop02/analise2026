@@ -11,7 +11,7 @@ def maior_num(x,y):        # funcao predefinida para somar
     if  x > y:
         return  x
     elif x == y:
-        return  "são iguais"
+        return  "São iguais"
     else:
         return  y
 #
