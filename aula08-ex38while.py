@@ -9,7 +9,7 @@ print("="*80)
 i=0
 resto= 0
 while i <= 20:
-    print(f"Numero {i:02d} PAR ")
+    print(f"Numero {i:2d} PAR ")
     i=i+2
   
 #-------------------------------------------
