@@ -1,0 +1,25 @@
+https://sqliteonline.com/    # banco de dados acessar sqlite
+
+
+create table aluno2 (
+  matricula integer primary key, 
+  nome text not null, 
+  turma text
+  
+                    );
+# quando exportar gera o arquivo SQLite.1.csv na pasta de downloads
+
+insert into aluno2 (matricula, nome, turma)
+values (1, 'joao silva', '3 ano B'); 
+
+insert into aluno2 (matricula, nome, turma)
+values (2, 'luis eduardo', '3 ano B');
+
+SELECT * FROM aluno2 
+
+insert into aluno2 (matricula, nome, turma)
+values (4, 'mario', '3 ano c');
+
+UPDATE aluno2
+SET turma = '3 ano C'
+WHERE matricula = 4;
