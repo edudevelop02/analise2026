@@ -9,7 +9,7 @@ print("="*80)
 i=0
 resto= 0
 while i <= 20:
-    print(f"Numero {i:2d} PAR ")
+    print(f"Numero {i:2d} PAR ")     # :.2d  exibe valor tipo inteiro com 2 casas decimais
     i=i+2
   
 #-------------------------------------------

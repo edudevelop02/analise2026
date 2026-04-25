@@ -2,7 +2,7 @@
 desenvolva um codigo queusando while que
 digte um nome e imprima , e so encerre o programa ao digitar 'SAIR' 
 '''
-print(f"\nDigite nomes  -Versao prog.: 1.2")
+print(f"\nDigitar nomes e fazer upper case  -Versao prog.: 1.2")
 print("="*80)
 nome = ""
 #---------------------------------------------
